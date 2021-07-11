@@ -19,3 +19,10 @@ else
 fi
 
 sudo cp -v "${BASE}/lib/cron" /etc/cron.d/klipper-custom-configs
+
+for fn in $(find "${BASE}/klippy-plugins" -type f);do
+	newfn="${PLUGIN_DIR}/$(basename "$fn")"
+	if [ ! -f "$newfn" ];then
+		ln -s "$fn" "$newfn"
+	fi
+fi
