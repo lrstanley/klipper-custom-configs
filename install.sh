@@ -25,4 +25,4 @@ for fn in $(find "${BASE}/klippy-plugins" -type f);do
 	if [ ! -f "$newfn" ];then
 		ln -s "$fn" "$newfn"
 	fi
-fi
+done
