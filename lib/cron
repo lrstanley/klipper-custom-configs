@@ -1,1 +1,1 @@
-*/10 * * * * pi /home/pi/klipper-custom-configs/sync.sh
+*/30 * * * * pi /home/pi/klipper-custom-configs/sync.sh
