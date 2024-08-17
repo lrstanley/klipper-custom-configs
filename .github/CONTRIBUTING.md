@@ -86,6 +86,8 @@ Below are a few guidelines if you would like to contribute:
    * [Support][support]
    * [Code of Conduct][coc].
 
+
+
 <!-- definitions -->
 [coc]: https://github.com/lrstanley/klipper-custom-configs/blob/master/.github/CODE_OF_CONDUCT.md
 [dco]: https://developercertificate.org/
